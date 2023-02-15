@@ -27,3 +27,12 @@ task: in which area medicare will pay me more
  we will use shift + ctrl + down arrow and then reduce the number of decimals.
  
  
+Condition Formatting:(more powerful stories are highlighted in a impactful ways using this)
+click on the column and select "condition formating" create rule to highlight the hospital which charge above 25000 and use diff coulour to highlight 
+the providers which charge above 50000.
+add a border to create a nice report.
+
+further, use the space efficently by shortning the columns and then use wrappting.
+then use vertical allignment to make it much more redable and printable friendly.
+
+made with love :)
