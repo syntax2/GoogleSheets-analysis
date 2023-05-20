@@ -1,4 +1,4 @@
-# hospital-charges-analysis
+# GoogleSheets-analysis
 we will have a large dataset that involves hospital treatement charges form acrooss the states in the united states,
 using this raw data we will prepare a report that shows which are the cheapest health providers for a particular type of illment across the country.
 we will accomplish in google sheets using the feature such as formatting , filtering, sorting,conditional formatting with and emphasis on the quality and the persentability of the reports.
