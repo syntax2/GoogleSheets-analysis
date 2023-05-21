@@ -1,38 +1,32 @@
-# GoogleSheets-analysis
-we will have a large dataset that involves hospital treatement charges form acrooss the states in the united states,
-using this raw data we will prepare a report that shows which are the cheapest health providers for a particular type of illment across the country.
-we will accomplish in google sheets using the feature such as formatting , filtering, sorting,conditional formatting with and emphasis on the quality and the persentability of the reports.
-We are going to analyse this "raw" dataset and prepare a "report" having the list of providers treating a specific ailment in a particular state of USA. Subsequently, we will rank providers by the cost of treatment.
+Hospital Treatment Charges Analysis: Unveiling the Cheapest Healthcare Providers
+Disclaimer: The following article documents a project completed during my tenure at C-DAC NetParam. It highlights a comprehensive analysis of hospital treatment charges across various states in the United States. The resulting report showcases the most cost-effective healthcare providers for specific ailments nationwide.
 
-Such a "report" will be extremely useful to government agencies and patients across the state. Instead of analysing the entire dataset, they will now use this report to find the cheapest healthcare provider in their city. Think of this report like a sorted "Yellow Pages" or "Dictionary".
+Introduction
+Within this ambitious endeavor, we set out to explore a vast dataset encompassing hospital treatment charges throughout the United States. Leveraging this raw data, our objective was to compile an informative report, shedding light on the most affordable health providers specializing in specific illnesses across the entire country. To achieve this, we employed the robust features of Google Sheets, focusing on formatting, filtering, sorting, and conditional formatting to enhance the quality and presentability of our reports.
 
-first task:
-we will find out how much it cost a person who lives in a certain area to take treatment in a specific area. (select providers treating chest pain in california)
-- create a filter then filter by value and select 'chest pain' in DRG Definition and 'ca' in provider state.
-second task:
-now we have to find the chepest and most expensive provider from the result we get from the previous step.
--when we apply sort but it will not give us the desired result because the $ sign is there so first we have to find and replace the '$',
-go into Edit > find and replace 
-then sort 'Average Covered Charges' 
-RESULTS:
-- chepest provider in California for chest pain is "MADERA COMMUNITY HOSPITAL"
-- EXpensive provider in California for chest pain is "DOCTORS MEDICAL CENTER"
+By meticulously analyzing this "raw" dataset, we were able to craft a comprehensive report listing the providers catering to a particular ailment within a specific state. Subsequently, we devised a ranking system based on treatment costs, allowing for an objective evaluation of healthcare providers.
 
-you know state is a very large region so i want to know who are the cheapest and most expensive health care provider in my city.
-- select the entire data set and Data > sort by range > sort by header , here you can apply layer of soting i.e second sort will apply on the result of first sort.
+Significance and Applications
+The resulting report proved to be of tremendous value to government agencies and patients across the nation. Instead of grappling with the entirety of the dataset, they now possess an invaluable resource at their disposal—a report enabling them to effortlessly identify the most cost-effective healthcare provider in their respective cities. One can envision this report as a meticulously sorted compendium akin to a "Yellow Pages" or "Dictionary," facilitating efficient decision-making processes.
 
--> now we will createa a new sheet with the results we find above and make that data tidy by deleting the unnecessary colums.
-task: in which area medicare will pay me more
-- the amount showed in sheet can be more simple and easy to read if we remove the decimal (bcz they will not be a factor in decision makinh).
- we will use shift + ctrl + down arrow and then reduce the number of decimals.
- 
- 
-Condition Formatting:(more powerful stories are highlighted in a impactful ways using this)
-click on the column and select "condition formating" create rule to highlight the hospital which charge above 25000 and use diff coulour to highlight 
-the providers which charge above 50000.
-add a border to create a nice report.
+Analysis and Tasks
+Let us delve into the essential tasks that drove our analysis and the subsequent insights we gained.
 
-further, use the space efficently by shortning the columns and then use wrappting.
-then use vertical allignment to make it much more redable and printable friendly.
+Task 1: Evaluating Treatment Costs for Chest Pain in California
+To kick-start our investigation, we aimed to determine the expenses incurred by individuals residing in specific regions for receiving treatment in a designated area. Our primary focus lay in selecting providers specializing in chest pain treatment in California.
 
-made with love :)
+To accomplish this, we established a filter and subsequently applied a value-based filter, isolating the relevant entries for "chest pain" in the "DRG Definition" column and "ca" in the "provider state" column.
+
+Task 2: Identifying the Cheapest and Most Expensive Providers
+Building upon the outcomes of the previous step, we proceeded to identify the cheapest and most expensive provider from the filtered results. However, due to the presence of the dollar sign in the figures, a straightforward sorting approach would not yield the desired results. As a prerequisite, we needed to locate and replace the dollar sign, thus normalizing the data.
+
+Task 3: Sorting the Dataset and Creating a New Tidy Sheet
+Recognizing that the state encompasses a substantial region, it became imperative to identify the cheapest and most expensive healthcare providers within specific cities. To achieve this, we employed the "sort by range" functionality, allowing for a layered sorting process. Subsequently, we created a new sheet housing the results obtained from the aforementioned steps, streamlining the data by eliminating redundant columns.
+
+Task 4: Maximizing Medicare Reimbursements
+Given the financial implications, it was vital to identify the areas where Medicare provides more significant financial support. By selecting the entire dataset and employing the "Data > sort by range > sort by header" functionality, we gained insights into regions with potentially higher reimbursements.
+
+Enhancing Data Presentation and Readability
+To ensure the data's clarity and legibility, we undertook several measures to refine its presentation:
+
+Simplifying Numeric Representation: The values displayed in the sheet can be made more reader-friendly by removing decimal places, as they do not significantly impact decision-making processes. To achieve this, we utilized the keyboard shortcut "Shift + Ctrl + Down
